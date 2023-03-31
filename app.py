@@ -20,11 +20,3 @@ input_test = st.text_input("Provide your text input here", 'Mofẹ́ pààrọ̀ g
 button_clicked = st.button("Get Language Name")
 if button_clicked:
     st.text(Lrdetect_Model.predict([input_test]))
-    
-# if Lrdetect_Model.predict([input_test]) != 'Yoruba':
-#     error = "Not a Yoruba Text, Please try another"
-#     st.text(error)
-    
-    
-# voice_button_clicked = st.button("Start Voice")
-  
