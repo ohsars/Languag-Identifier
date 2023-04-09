@@ -3,7 +3,6 @@ import string
 import streamlit as st
 import webbrowser
 
-
 global Lrdetect_Model
 
 LrdetectFile = open('model.pkl','rb')
